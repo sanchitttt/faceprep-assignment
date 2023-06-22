@@ -6,3 +6,4 @@
  - React Router DOM
  - Material UI (For Skeleton)
  - Redux Toolkit (For global state management)
+ - Git && Github (For Version Control)
