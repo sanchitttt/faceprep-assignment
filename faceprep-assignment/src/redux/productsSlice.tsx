@@ -14,7 +14,7 @@ export const fetchProducts = createAsyncThunk('loadData', (): Promise<CardProps[
     return new Promise<CardProps[]>((resolve) => {
         setTimeout(() => {
             resolve(productsData)
-        }, 1500);
+        }, 2100);
     })
 })
 
