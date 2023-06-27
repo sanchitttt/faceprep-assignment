@@ -43,7 +43,7 @@ function Home() {
                 const timeoutId = setTimeout(() => {
                     dispatch((loadNextProducts()));
                     clearTimeout(timeoutId);
-                }, 2100)
+                }, 1500)
             }
         })
         return () => {
